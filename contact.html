@@ -5,36 +5,36 @@
   <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
   <body>
-    <h1>Please fill out this form to contact Olya!</h1>
-     <img src="images/temple.jpeg" alt="Thai buddist temple" align="left" width="113" height="173">
-        <form action="success.html" method="post">
-          <div>
-            <label>Name:</label>
-            <input type="text" name="name">
-          </div>
+    <h1 class="title">Form to contact Olya!</h1>
+      <form action="success.html" method="post" class=paragraph>
+        <div class="form" id="name">
+          <label>Name:</label>
+          <input type="text" name="name">
+        </div>
           
-          <div> 
-            <label>Email:</label>
-            <input type="email" name="email">
-          </div> 
+        <div class="form" id="email"> 
+          <label>Email:</label>
+          <input type="email" name="email">
+        </div> 
           
-          <div>
-            <label>Comment:</label><br>
-            <textarea cols="40" rows="5"></textarea>
-          </div>
+        <div class="form">
+          <label>Comment:</label><br>
+          <textarea cols="40" rows="5" id="text-box"></textarea>
+        </div>
             
-          <div>
-            <input type="checkbox" name="checkbox" value="agree">
+        <div class="form">
+          <input type="checkbox" name="checkbox" value="agree">
             I would like to receive newsletters with awesome photos.
           </div>
           
-          <div>
+        <div class="form">
             <button type="submit">Send contact request</button>
-          </div>
-        </form>
+        </div>
+
+      </form> 
         <br>
         <br>
-       <nav>
+       <nav class="navigation">
           <a href="index.html">Home Page</a>&nbsp;&nbsp;&nbsp;&nbsp; 
           <a href="portfolio.html">Portfolio</a> 
        </nav>

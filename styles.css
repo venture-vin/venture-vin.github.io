@@ -1,3 +1,89 @@
 body {
   background: lightgrey;
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#me {
+  position: relative;
+  margin-left: 30%;
+  width: 35%;
+  height: auto;
+}
+
+.title {
+  margin-top: 40px;
+  margin-left: 30%;
+  position:relative;
+  vertical-align: center;
+  font-family: "Marker Felt", Sans-serif;
+  font-size: 2em;
+}
+
+#gallery-title {
+  margin-left: 40%;
+ }
+
+.paragraph {
+  width: 40%;
+  position: relative;
+  margin-left: 28%;
+}
+
+.form {
+  padding: 2px;
+}
+
+#text-box {
+  margin-top: 5px;
+  min-width: 75%;
+  padding-bottom: 10px;
+  background-image: url("images/temple.jpeg");
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  font-color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.lists {
+  margin-left: 30%;
+}
+.navigation {
+  border: 1px solid grey;
+  padding: 10px;
+  width: 45%;
+  margin-left: 25%; 
+  text-align: center;
+}
+
+.image-gallery {
+  padding: 5px;
+}
+
+a:visited {
+  color: green;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: purple;
+}
+
+@media screen and (max-width: 480px) {
+  .image-gallery {
+      width: 10%;
+      height: 10%;
+   }
+}
+
+@media screen and (max-width: 6000px) {
+  #text-box {
+      width: 10%;
+      height: 10%;
+    }
 }
