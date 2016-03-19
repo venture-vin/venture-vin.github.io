@@ -41,7 +41,6 @@ body {
   padding-bottom: 10px;
   background-image: url("images/temple.jpeg");
   opacity: 0.4;
-  filter: alpha(opacity=40);
   font-color: black;
   font-weight: bold;
   font-size: 1.2em;
